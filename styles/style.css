@@ -237,14 +237,14 @@ nav ul li a {
     margin-top: 150px;
 }
 
-.facts-container>h2 {
+.section-title {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 53px;
     color: #131313;
 }
 
-.facts-container>p {
+.section-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -300,4 +300,88 @@ nav ul li a {
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+/* Order Section Style */
+
+.order-container {
+    margin-top: 100px;
+}
+
+.form-section {
+    color: #FFFFFF;
+    background-color: burlywood;
+    padding: 20px 50px;
+    margin-top: -60px;
+}
+
+.form-input {
+    display: block;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.checkbox-area {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.checkbox-area h4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 500px;
+    padding: 10px 20px;
+}
+
+input[type="submit"] {
+    margin-right: 30px;
+}
+
+/* Sponsor Section Style */
+.sponsors-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.sponsors-container h2 {
+    text-align: center;
+}
+
+.sponsors-container p {
+    text-align: center;
+    margin-left: 270px;
+}
+
+.sponsors-name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+
+.sponsors-name img {
+    width: 105px;
+    height: 35px;
+}
+
+/* ===================
+    Footer Style 
+=======================*/
+
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
 }
