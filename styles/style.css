@@ -3,13 +3,23 @@ body {
     margin: 0 auto;
 }
 
+.website-width {
+    margin: 0 140px 0 140px;
+}
+
+/* ====================
+    Header Style        
+======================= */
+
 header {
     background: rgba(255, 144, 14, 0.1);
 }
 
 .header-container {
-    padding: 63px 240px 45px 240px;
+    padding: 33px 0 35px 0;
 }
+
+/* Nav Style */
 
 .header-nav {
     display: flex;
@@ -42,4 +52,50 @@ nav ul li a {
     line-height: 26px;
     text-align: center;
     color: #424242;
+}
+
+/* Banner Style */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.banner h1 {
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    color: #131313;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.banner p {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #727272;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.primary-btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner img {
+    width: 100%;
 }
