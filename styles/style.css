@@ -132,7 +132,7 @@ nav ul li a {
 }
 
 .feature-items {
-    width: 400px;
+    max-width: 400px;
 }
 
 .feature-items h1 {
@@ -385,8 +385,69 @@ footer {
     text-align: center;
     padding: 30px 50px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
     text-align: center;
     color: #424242;
+}
+
+/* ============================
+    Media Query 
+=============================== */
+
+@media screen and (max-width: 576px) {
+    .header-nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .feature-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-description {
+        margin-top: 50px;
+    }
+
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-preference {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-preference-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #big-btn {
+        position: static;
+    }
+
+    .facts-items {
+        flex-direction: column;
+    }
+
+    .form-input,
+    textarea {
+        width: 150px;
+    }
+
+    .sponsors-container p {
+        margin-left: 10px;
+    }
+
+    .sponsors-name {
+        flex-direction: column;
+    }
+
+    .sponsors-name img {
+        margin-bottom: 20px;
+        width: 200px;
+    }
 }
