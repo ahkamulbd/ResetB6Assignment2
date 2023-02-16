@@ -1,6 +1,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0 auto;
+    background: rgba(30, 30, 30, 0.1);
 }
 
 .website-width {
@@ -115,7 +116,7 @@ nav ul li a {
 .feature-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    gap: 10px;
 }
 
 .feature-images img {
