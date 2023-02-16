@@ -99,3 +99,58 @@ nav ul li a {
 .banner img {
     width: 100%;
 }
+
+/* ================
+    Main Style      
+=================== */
+
+/* Feature Section */
+.feature-container {
+    padding: 85px 20px 130px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 73px;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.feature-images img {
+    width: 100%;
+}
+
+.feature-description {
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feature-items {
+    width: 400px;
+}
+
+.feature-items h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    color: #131313;
+}
+
+.feature-items h1 .gray-mark {
+    color: #727272;
+}
+
+.feature-items h1 .yellow-mark {
+    color: #FF900E;
+}
+
+.feature-items p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #727272;
+}
