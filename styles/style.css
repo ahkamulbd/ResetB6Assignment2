@@ -9,7 +9,7 @@ body {
 }
 
 /* ====================
-    Header Style        
+    Header Section Style        
 ======================= */
 
 header {
@@ -105,7 +105,8 @@ nav ul li a {
     Main Style      
 =================== */
 
-/* Feature Section */
+/* Feature Section Style */
+
 .feature-container {
     padding: 85px 20px 130px 20px;
     display: grid;
@@ -154,4 +155,77 @@ nav ul li a {
     font-size: 12px;
     line-height: 26px;
     color: #727272;
+}
+
+/* Feature Preference Section Style  */
+
+.feature-preference {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 54px;
+}
+
+.feature-preference-heading {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+
+.product-description {
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.feature-preference-heading>h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.G3-products {
+    margin-top: 30px;
+}
+
+.G3-product {
+    background: #FFFFFF;
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 10px;
+}
+
+.feature-preference-image {
+    position: relative;
+}
+
+.feature-preference-image img {
+    width: 100%;
+}
+
+#big-btn {
+    width: 180px;
+    height: 60px;
+    padding: 30px 30px;
+    position: absolute;
+    top: 550px;
+    left: -100px;
+
+}
+
+#big-btn h1 {
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+#big-btn h5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
